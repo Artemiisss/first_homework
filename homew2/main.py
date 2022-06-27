@@ -19,9 +19,7 @@ print(distance % LENGTH_TRACK)
 
 # exersice 4
 y = int(input('enter a number:'))
-if y % 4 == 0 and y % 100 != 0:
-    print("YES")
-elif y % 400 == 0:
+if y % 4 == 0 and y % 100 != 0 or y % 400 == 0:
     print("YES")
 else:
     print("NO")
